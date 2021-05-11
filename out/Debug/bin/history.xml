@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=out.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\MiniOS -TC:\CooCox\CoIDE\configuration\ProgramData\MiniOS/arm-gcc-link.ld -g">
+      <target file="out.elf" lastModified="1795ba0ec93">
+         <source file="..\obj\timing.o" lastModified="1795ba0e826"/>
+         <source file="..\obj\ports.o" lastModified="1795ba0e864"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1795ba0e895"/>
+         <source file="..\obj\main.o" lastModified="1795ba0e8ce"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1795ba0e94b"/>
+         <source file="..\obj\system.o" lastModified="1795ba0e985"/>
+         <source file="..\obj\scheduler.o" lastModified="1795ba0e9c8"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1795ba0ea1b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1795ba0ea5d"/>
+         <source file="..\obj\misc.o" lastModified="1795ba0ea9c"/>
+      </target>
+   </processor>
+</history>

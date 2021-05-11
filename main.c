@@ -24,7 +24,7 @@ int main(void){
 	InitPorts();
 	InitScheduler();
 
-	ExecuteThread(MyThread1, 500, 0);
+	ExecuteThread(MyThread1, 100, 0);
 	ExecuteThread(MyThread2, 100, 0);
     while(1){}
 }
