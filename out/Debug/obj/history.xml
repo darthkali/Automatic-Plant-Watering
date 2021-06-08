@@ -1,35 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F401RC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IP:\C++\MiniOS\src -IP:\C++\MiniOS\cmsis_boot -IP:\C++ -IP:\C++\MiniOS -IP:\C++\MiniOS\cmsis_lib -IP:\C++\MiniOS\cmsis_lib\include -IP:\C++\MiniOS\cmsis">
-      <target file="stm32f4xx_gpio.o" lastModified="1795ba0ea1b">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401RC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IP:\C++\MiniOS\src -IP:\C++\MiniOS\cmsis_boot -IP:\C++ -IP:\C++\MiniOS -IP:\C++\MiniOS\cmsis_lib -IP:\C++\MiniOS\cmsis -IP:\C++\MiniOS\cmsis_lib\include">
+      <target file="exti.o" lastModified="179ebcb1d64">
+         <source file="..\..\..\src\exti.c" lastModified="179a3559ba3"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="179ebcb1cc8">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="178ef5c1eff"/>
       </target>
-      <target file="timing.o" lastModified="1795ba0e826">
-         <source file="..\..\..\src\timing.c" lastModified="1795b3ccffd"/>
+      <target file="fifo.o" lastModified="179ebcb1cfa">
+         <source file="..\..\..\src\fifo.c" lastModified="179a3631902"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="1795ba0ea5d">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="178ef7472d4"/>
+      <target file="display.o" lastModified="179ebcb1c34">
+         <source file="..\..\..\src\display.c" lastModified="179ebc967f2"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="1795ba0e895">
+      <target file="startup_stm32f4xx.o" lastModified="179ebcb1b0f">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="178ef599200"/>
       </target>
-      <target file="system.o" lastModified="1795ba0e985">
-         <source file="..\..\..\src\system.c" lastModified="17937ae52ff"/>
+      <target file="i2c.o" lastModified="179ebcb19cd">
+         <source file="..\..\..\src\i2c.c" lastModified="179ebc1a5af"/>
       </target>
-      <target file="main.o" lastModified="1795ba0e8ce">
-         <source file="..\..\..\main.c" lastModified="1795ba0e6d7"/>
+      <target file="system_stm32f4xx.o" lastModified="179ebcb1d37">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="178ef7472d4"/>
       </target>
-      <target file="ports.o" lastModified="1795ba0e864">
-         <source file="..\..\..\src\ports.c" lastModified="1795b806dde"/>
+      <target file="misc.o" lastModified="179ebcb1df7">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="179378b6dd9"/>
       </target>
-      <target file="scheduler.o" lastModified="1795ba0e9c8">
+      <target file="scheduler.o" lastModified="179ebcb1c76">
          <source file="..\..\..\src\scheduler.c" lastModified="1795b67f6ce"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="1795ba0e94b">
+      <target file="counter.o" lastModified="179ebcb1ade">
+         <source file="..\..\..\src\counter.c" lastModified="179a34caa84"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="179ebcb1ba1">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="178ef599240"/>
       </target>
-      <target file="misc.o" lastModified="1795ba0ea9c">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="179378b6dd9"/>
+      <target file="rs232.o" lastModified="179ebcb1a0d">
+         <source file="..\..\..\src\rs232.c" lastModified="179c7c5ec91"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="179ebcb1dba">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="179eb629075"/>
+      </target>
+      <target file="ports.o" lastModified="179ebcb1a9e">
+         <source file="..\..\..\src\ports.c" lastModified="179a35051dd"/>
+      </target>
+      <target file="timing.o" lastModified="179ebcb198f">
+         <source file="..\..\..\src\timing.c" lastModified="1795b3ccffd"/>
+      </target>
+      <target file="system.o" lastModified="179ebcb1bda">
+         <source file="..\..\..\src\system.c" lastModified="179c7706b65"/>
+      </target>
+      <target file="main.o" lastModified="179ebcb1b4a">
+         <source file="..\..\..\main.c" lastModified="179ebcb17e4"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="179ebcb1a5e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="179a3920ecc"/>
       </target>
    </processor>
 </history>

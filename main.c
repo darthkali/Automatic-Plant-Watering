@@ -3,18 +3,10 @@
 #include "system.h"
 #include "timing.h"
 #include "scheduler.h"
-
-
-// Thread 1
-void MyThread1() {
-	ToggleGPIOPin(GPIOA, 5);
-}
-
-// Thread 2
-void MyThread2() {
-	ToggleGPIOPin(GPIOA, 6);
-}
-
+#include "counter.h"
+#include "rs232.h"
+#include "i2c.h"
+#include "display.h"
 
 
 // Main Task / Idle Task
@@ -23,8 +15,21 @@ int main(void){
 	InitSystem();
 	InitPorts();
 	InitScheduler();
+	InitCounter();
+	InitRS232();
+	InitI2C();
 
-	ExecuteThread(MyThread1, 100, 0);
-	ExecuteThread(MyThread2, 100, 0);
-    while(1){}
+	InitDisplay();
+
+
+    while(1){
+
+    	int x = 10;
+
+    	while(x < 120){
+    		SetPixel(x++,10);
+    	}
+
+
+    }
 }
