@@ -1,21 +1,16 @@
+
 #ifndef COUNTER_H
 #define COUNTER_H
 
 // --- Constants ---
-#define MAX_COUNTERS 10
+#define MAX_COUNTERS 	10
 
 // --- Counter ---
-
-typedef struct COUNTER{
+typedef struct COUNTER
+{
 	int nLastPinState;
 	int nCounterValue;
-}COUNTER;
-
-
-
-// --- Includes ---
-
-
+} COUNTER;
 
 // --- Prototypes ---
 void InitCounter();

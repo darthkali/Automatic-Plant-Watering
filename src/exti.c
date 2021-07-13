@@ -1,4 +1,4 @@
-/*
+
 // --- Includes ---
 #include "exti.h"
 #include "misc.h"
@@ -78,4 +78,3 @@ void EXTI1_IRQHandler()
 	}
 }
 
-*/

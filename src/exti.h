@@ -1,4 +1,4 @@
-/*
+
 #ifndef EXTI_H
 #define EXTI_H
 
@@ -23,4 +23,3 @@ typedef void (*EXT_CALLBACK)(int nLine);
 void SetExtCallback(EXT_CALLBACK pfCallback,TRIGGER_EDGE enTrigger,int nLine);
 
 #endif
-*/

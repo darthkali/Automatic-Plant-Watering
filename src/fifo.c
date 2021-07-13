@@ -1,3 +1,4 @@
+
 // --- Includes ---
 #include "fifo.h"
 
@@ -46,4 +47,3 @@ char ReadBuffer(BUFFER* pBuffer)
 
 	return 0;
 }
-

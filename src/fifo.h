@@ -1,3 +1,4 @@
+
 #ifndef FIFO_H
 #define FIFO_H
 
@@ -9,8 +10,8 @@ typedef struct BUFFER
 {
 	char  arrBuffer[MAXBUFFER];					// buffer
 	short nCount;								// count
-	short nHead;								// head - position Schreibzeiger
-	short nTail;								// tail - position Lesezeigerzeiger
+	short nHead;								// head
+	short nTail;								// tail
 } BUFFER;
 
 // --- Prototypes ---

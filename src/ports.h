@@ -1,3 +1,4 @@
+
 #ifndef PORTS_H
 #define PORTS_H
 
@@ -8,7 +9,7 @@
 
 // --- Pin definitions ---
 
-// Digital IN
+// Digital inputs...
 #define IN0			GPIOC,4
 #define IN1			GPIOC,5
 #define IN2			GPIOC,6
@@ -20,7 +21,7 @@
 #define IN8			GPIOC,12
 #define IN9			GPIOC,13
 
-// Digital OUT
+// Digital outputs...
 #define OUT0		GPIOB,4
 #define OUT1		GPIOB,5
 #define OUT2		GPIOB,6
@@ -28,14 +29,14 @@
 #define OUT4		GPIOB,8
 #define OUT5		GPIOB,9
 
-
-
 // --- Prototypes ---
 void InitPorts();
+
 int GetGPIOPin(GPIO_TypeDef* pPort, int nPin);
 void SetGPIOPin(GPIO_TypeDef* pPort, int nPin, int nValue);
 void ToggleGPIOPin(GPIO_TypeDef* pPort, int nPin);
 
 int GetInput(int nInput);
-void SetOutput (int nOutput, int nValue);
+void SetOutput(int nOutput,int nValue);
+
 #endif

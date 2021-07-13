@@ -1,3 +1,4 @@
+
 #ifndef SCHEDULER_H
 #define SCHEDULER_H
 
@@ -5,28 +6,27 @@
 #include "misc.h"
 #include "stm32f4xx.h"
 
-
 // --- Constants ---
-#define MAX_THREADS 16
-#define MAX_SLOTS 	10
+#define MAX_THREADS			16
+#define MAX_SLOTS			10
 
-// --- Thread functions ---
+// --- Thread function ---
 typedef void (*THREAD_FUNC)();
 
 // --- Thread structure ---
-typedef struct tagTHREAD{
-
+typedef struct tagTHREAD
+{
 	THREAD_FUNC pfThreadFunction;
-	int			nElapsedTime;
-	int 		nCycleTime;
-	int 		nSlotNum;
+	int 		nElapsedTime;
+	int         nCycleTime;
+	int			nSlotNum;
 } THREAD;
-
 
 // --- Prototypes ---
 void InitScheduler();
-int GetSystemTick();
+int GetSysTick();
 
 void ExecuteThread(THREAD_FUNC pfThreadFunc, int nCycleTime, int nSlotNum);
+
 
 #endif

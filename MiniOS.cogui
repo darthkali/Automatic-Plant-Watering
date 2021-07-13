@@ -2,7 +2,12 @@
 <workbench version="2.0">
 <workbenchAdvisor/>
 <window>
-<fastViewData fastViewLocation="1024"/>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+</fastViewData>
 <perspectiveBar/>
 <page focus="true" label="Workspace - CooCox CoBuilder">
 <editors>
@@ -12,138 +17,31 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
-<part id="20"/>
-<part id="21"/>
-<part id="22"/>
-<part id="23"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
-</input>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="scheduler.c" partName="scheduler.c" path="P:/C++/MiniOS/scheduler.c" title="scheduler.c" tooltip="P:/C++/MiniOS/scheduler.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/source/scheduler.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="543" selectionTopPixel="210"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="scheduler.h" partName="scheduler.h" path="P:/C++/ES3/scheduler.h" title="scheduler.h" tooltip="P:/C++/ES3/scheduler.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/source/scheduler.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="166" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ports.h" partName="ports.h" path="P:/C++/ES3/ports.h" title="ports.h" tooltip="P:/C++/ES3/ports.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/source/ports.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="180" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" partName="system_stm32f4xx.c" path="P:/C++/ES3/cmsis_boot/system_stm32f4xx.c" title="system_stm32f4xx.c" tooltip="P:/C++/ES3/cmsis_boot/system_stm32f4xx.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/cmsis_boot/system_stm32f4xx.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8157" selectionTopPixel="2548"/>
-</editor>
-<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">&#x0A;<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="2" verticalPosition="690"/>
-</input>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="counter.h" partName="counter.h" path="P:/C++/MiniOS/src/counter.h" title="counter.h" tooltip="P:/C++/MiniOS/src/counter.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/counter.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="191" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="counter.c" partName="counter.c" path="P:/C++/MiniOS/src/counter.c" title="counter.c" tooltip="P:/C++/MiniOS/src/counter.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/counter.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="374" selectionTopPixel="360"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="scheduler.h" partName="scheduler.h" path="P:/C++/MiniOS/src/scheduler.h" title="scheduler.h" tooltip="P:/C++/MiniOS/src/scheduler.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/scheduler.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="568" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="scheduler.c" partName="scheduler.c" path="P:/C++/MiniOS/src/scheduler.c" title="scheduler.c" tooltip="P:/C++/MiniOS/src/scheduler.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/scheduler.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1403" selectionOffset="0" selectionTopPixel="150"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="exti.c" partName="exti.c" path="P:/C++/MiniOS/src/exti.c" title="exti.c" tooltip="P:/C++/MiniOS/src/exti.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/exti.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1773" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="exti.h" partName="exti.h" path="P:/C++/MiniOS/src/exti.h" title="exti.h" tooltip="P:/C++/MiniOS/src/exti.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/exti.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.c" partName="fifo.c" path="P:/C++/MiniOS/src/fifo.c" title="fifo.c" tooltip="P:/C++/MiniOS/src/fifo.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/fifo.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="986" selectionTopPixel="207"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.h" partName="fifo.h" path="P:/C++/MiniOS/src/fifo.h" title="fifo.h" tooltip="P:/C++/MiniOS/src/fifo.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/fifo.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="339" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="rs232.c" partName="rs232.c" path="P:/C++/MiniOS/src/rs232.c" title="rs232.c" tooltip="P:/C++/MiniOS/src/rs232.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/rs232.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2492" selectionTopPixel="1516"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="rs232.h" partName="rs232.h" path="P:/C++/MiniOS/src/rs232.h" title="rs232.h" tooltip="P:/C++/MiniOS/src/rs232.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/rs232.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="266" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ports.h" partName="ports.h" path="P:/C++/MiniOS/src/ports.h" title="ports.h" tooltip="P:/C++/MiniOS/src/ports.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/ports.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="79" selectionOffset="57" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="P:/C++/MiniOS/main.c" title="main.c" tooltip="P:/C++/MiniOS/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="281" selectionTopPixel="122"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ports.c" partName="ports.c" path="P:/C++/MiniOS/src/ports.c" title="ports.c" tooltip="P:/C++/MiniOS/src/ports.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/ports.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="60"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.h" partName="stm32f4xx_gpio.h" path="P:/C++/MiniOS/cmsis_lib/include/stm32f4xx_gpio.h" title="stm32f4xx_gpio.h" tooltip="P:/C++/MiniOS/cmsis_lib/include/stm32f4xx_gpio.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/cmsis_lib/include/stm32f4xx_gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="5030" selectionTopPixel="2040"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.h" partName="stm32f4xx_usart.h" path="P:/C++/MiniOS/cmsis_lib/include/stm32f4xx_usart.h" title="stm32f4xx_usart.h" tooltip="P:/C++/MiniOS/cmsis_lib/include/stm32f4xx_usart.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/cmsis_lib/include/stm32f4xx_usart.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="3697" selectionTopPixel="1054"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system.c" partName="system.c" path="P:/C++/MiniOS/src/system.c" title="system.c" tooltip="P:/C++/MiniOS/src/system.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/system.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="103" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" partName="system.h" path="P:/C++/MiniOS/src/system.h" title="system.h" tooltip="P:/C++/MiniOS/src/system.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/system.h"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" partName="display.h" path="P:/C++/MiniOS/src/display.h" title="display.h" tooltip="P:/C++/MiniOS/src/display.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/src/display.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" partName="startup_stm32f4xx.c" path="P:/C++/MiniOS/cmsis_boot/startup/startup_stm32f4xx.c" title="startup_stm32f4xx.c" tooltip="P:/C++/MiniOS/cmsis_boot/startup/startup_stm32f4xx.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MiniOS/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" title="main.c" tooltip="P:\C++\MiniOS2\main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/P:/C++/MiniOS2/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="2">
 <expanded>
 <element path="/MiniOS"/>
 <element path="/MiniOS/cmsis_lib"/>
 <element path="/MiniOS/cmsis_lib/include"/>
 <element path="/MiniOS/src"/>
 </expanded>
+<selection>
+<element path="/MiniOS/src/display.h"/>
+</selection>
 </viewState>
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
@@ -221,7 +119,7 @@
 </presentation>
 </folder>
 </info>
-<info part="org.coocox.builder.ui.exampleView" ratio="0.12467261" ratioLeft="238" ratioRight="1671" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0a88"/>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.2037716" ratioLeft="389" ratioRight="1520" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0a88"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@b373a8" ratio="0.71983916" ratioLeft="1074" ratioRight="418" relationship="2" relative="org.coocox.builder.ui.exampleView">
 <folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
 <page content="org.coocox.component.ui.Help" label="Help"/>
@@ -288,8 +186,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.codebugger.trace.ui.traceview"/>
@@ -307,7 +205,7 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@aa48bc" ratio="0.6992561" ratioLeft="658" ratioRight="283" relationship="4" relative="org.eclipse.ui.internal.ViewStack@13736c1">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@aa48bc" ratio="0.6992561" ratioLeft="658" ratioRight="283" relationship="4" relative="org.eclipse.ui.internal.ViewStack@13736c1">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -341,163 +239,176 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/rs232.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/moisture.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/adc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/counter.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/display.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/fifo.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/fifo.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/i2c.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/ports.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/rs232.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/rs232.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/system.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/scheduler.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/moisture.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/ports.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/moisture.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/moisture.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/display.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/display.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/fifo.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MiniOS/src/display.h"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/P:/C++/MiniOS2/main.c"/>
 </editors>
-<item historyLabel="startup_stm32f4xx.c" index="2">
+<item historyLabel="system.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="507" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2065" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1705" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1788" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1792" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1654" y="0"/>
-</item>
-<item historyLabel="fifo.c" index="3">
-<position info="not_deleted" x="823" y="0"/>
-</item>
-<item historyLabel="fifo.h" index="4">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="fifo.c" index="3">
-<position info="not_deleted" x="393" y="27"/>
-</item>
-<item historyLabel="fifo.h" index="4">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="fifo.c" index="3">
-<position info="not_deleted" x="393" y="27"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="250" y="0"/>
-</item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2804" y="0"/>
-</item>
-<item historyLabel="fifo.c" index="3">
-<position info="not_deleted" x="336" y="0"/>
-</item>
-<item historyLabel="ports.c" index="5">
+<item historyLabel="scheduler.c" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2804" y="0"/>
+<item historyLabel="rs232.c" index="7">
+<position info="not_deleted" x="2360" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position/>
+<item historyLabel="ports.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2804" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1141" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position/>
+<item historyLabel="i2c.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="205" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="845" y="4"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2137" y="12"/>
+<item historyLabel="fifo.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="454" y="0"/>
+<item historyLabel="display.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2399" y="2"/>
+<item historyLabel="counter.c" index="2">
+<position info="not_deleted" x="136" y="21"/>
 </item>
-<item historyLabel="rs232.h" index="6">
-<position info="not_deleted" x="32" y="0"/>
+<item historyLabel="adc.c" index="1">
+<position info="not_deleted" x="200" y="0"/>
 </item>
-<item historyLabel="rs232.h" index="6">
-<position info="not_deleted" x="266" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="845" y="4"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2070" y="17"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="929" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2107" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1606" y="26"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2113" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1911" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2385" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1606" y="26"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="454" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1814" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="937" y="4"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2385" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1659" y="42"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1792" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1857" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="2059" y="27"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2074" y="13"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1047" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2703" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="965" y="2"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1870" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1877" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1659" y="42"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2063" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="1383" y="25"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1914" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="490" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="1993" y="0"/>
+<item historyLabel="display.c" index="3">
+<position info="not_deleted" x="1251" y="13"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2439" y="0"/>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="0" y="3293"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position/>
+<item historyLabel="moisture.h" index="10">
+<position info="not_deleted" x="445" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="626" y="0"/>
+<item historyLabel="ports.h" index="11">
+<position info="not_deleted" x="2" y="32"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="536" y="0"/>
+<item historyLabel="moisture.h" index="10">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="521" y="0"/>
+<item historyLabel="ports.h" index="11">
+<position info="not_deleted" x="870" y="6"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2439" y="0"/>
+<item historyLabel="moisture.h" index="10">
+<position info="not_deleted" x="686" y="0"/>
 </item>
-<item historyLabel="rs232.c" index="0">
-<position info="not_deleted" x="2492" y="0"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="1">
-<position info="not_deleted" x="521" y="0"/>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="658" y="0"/>
+</item>
+<item historyLabel="moisture.c" index="0">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="658" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="1062" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="1090" y="2"/>
+</item>
+<item historyLabel="moisture.h" index="13">
+<position info="not_deleted" x="687" y="0"/>
+</item>
+<item historyLabel="moisture.h" index="13">
+<position info="not_deleted" x="625" y="0"/>
+</item>
+<item historyLabel="moisture.c" index="14">
+<position info="not_deleted" x="1826" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="915" y="24"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="951" y="0"/>
+</item>
+<item historyLabel="display.c" index="15">
+<position info="not_deleted" x="1251" y="13"/>
+</item>
+<item historyLabel="display.h" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fifo.c" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="display.h" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="19">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -506,23 +417,17 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="MiniOS/cmsis_boot/startup/startup_stm32f4xx.c">
-<persistable path="/MiniOS/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="MiniOS.coproj" tooltip="P:\C++\MiniOS - Kopie\MiniOS.coproj">
+<persistable uri="file:/P:/C++/MiniOS%20-%20Kopie/MiniOS.coproj"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="MiniOS/src/system.h">
-<persistable path="/MiniOS/src/system.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="P:\C++\MiniOS2\main.c">
+<persistable uri="file:/P:/C++/MiniOS2/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.c" tooltip="MiniOS/src/system.c">
-<persistable path="/MiniOS/src/system.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" tooltip="MiniOS/src/display.h">
+<persistable path="/MiniOS/src/display.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.h" tooltip="MiniOS/cmsis_lib/include/stm32f4xx_usart.h">
-<persistable path="/MiniOS/cmsis_lib/include/stm32f4xx_usart.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.h" tooltip="MiniOS/cmsis_lib/include/stm32f4xx_gpio.h">
-<persistable path="/MiniOS/cmsis_lib/include/stm32f4xx_gpio.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ports.c" tooltip="MiniOS/src/ports.c">
-<persistable path="/MiniOS/src/ports.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="MiniOS.coproj" tooltip="P:\C++\MiniOS\MiniOS.coproj">
+<persistable uri="file:/P:/C++/MiniOS/MiniOS.coproj"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="MiniOS/main.c">
 <persistable path="/MiniOS/main.c"/>
@@ -530,26 +435,32 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ports.h" tooltip="MiniOS/src/ports.h">
 <persistable path="/MiniOS/src/ports.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rs232.h" tooltip="MiniOS/src/rs232.h">
-<persistable path="/MiniOS/src/rs232.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="scheduler.c" tooltip="MiniOS/src/scheduler.c">
+<persistable path="/MiniOS/src/scheduler.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.c" tooltip="MiniOS/src/system.c">
+<persistable path="/MiniOS/src/system.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timing.c" tooltip="MiniOS/src/timing.c">
+<persistable path="/MiniOS/src/timing.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timing.h" tooltip="MiniOS/src/timing.h">
+<persistable path="/MiniOS/src/timing.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rs232.c" tooltip="MiniOS/src/rs232.c">
 <persistable path="/MiniOS/src/rs232.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.h" tooltip="MiniOS/src/fifo.h">
-<persistable path="/MiniOS/src/fifo.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ports.c" tooltip="MiniOS/src/ports.c">
+<persistable path="/MiniOS/src/ports.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2c.c" tooltip="MiniOS/src/i2c.c">
+<persistable path="/MiniOS/src/i2c.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.c" tooltip="MiniOS/src/fifo.c">
 <persistable path="/MiniOS/src/fifo.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="exti.h" tooltip="MiniOS/src/exti.h">
-<persistable path="/MiniOS/src/exti.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="exti.c" tooltip="MiniOS/src/exti.c">
-<persistable path="/MiniOS/src/exti.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="exti.c" tooltip="MiniOS/src/exti.c">
-<persistable path="/MiniOS/src/exti.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.c" tooltip="MiniOS/src/display.c">
+<persistable path="/MiniOS/src/display.c"/>
 </file>
 </mruList>
 </workbench>

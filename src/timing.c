@@ -1,26 +1,28 @@
-// --- Includes ---
 
-// --- Variables ---
+#include "timing.h"
 
-// --- Prototypes ---
-	// --- Nap 1µs ---
-	void Nap(int microsec){
-		while (microsec--){
-			volatile int nap = 6;	// sagt dem Compiler dass er an die Variable nichts ändern darf
+// --- Nap 1µs ---
+void Nap(int microsec)
+{
+	while (microsec--)
+	{
+		volatile int nap = 6;
 
-			while (nap--){
-				__asm("nop\n"		//Assembler Befehle
-					  "nop\n"
-					  "nop\n"
-					  "nop\n"
-					  "nop\n"
-					  "nop\n");
-			}
+		while (nap--)
+		{
+			__asm("nop\n"
+				  "nop\n"
+				  "nop\n"
+				  "nop\n"
+				  "nop\n"
+				  "nop\n");
 		}
 	}
+}
 
-	// --- Delay ---
-	void Delay(int millisec){
-		while (millisec--)
-			Nap(1000);
-	}
+// --- Delay ---
+void Delay(int millisec)
+{
+	while (millisec--)
+    	Nap(1000);
+}

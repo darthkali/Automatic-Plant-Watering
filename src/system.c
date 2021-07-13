@@ -1,20 +1,15 @@
-// --- Includes ---
-#include "scheduler.h"
-#include "ports.h"
+
 #include "misc.h"
 #include "system.h"
 
-// --- Variables ---
-
-// --- Prototypes ----
-void InitSystem(){
-
+// init main clock
+void InitSystem()
+{
 	// clock setup
 	SystemInit();
 
-	// core Clock variable
+	// set core clock variable
 	SystemCoreClockUpdate();
-
 
 	// pre-emption priority only!
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
